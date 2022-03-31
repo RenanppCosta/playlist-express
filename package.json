@@ -1,0 +1,27 @@
+{
+  "name": "playlist-express",
+  "version": "1.0.0",
+  "description": "Playlist com express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanppCosta/playlist-express.git"
+  },
+  "author": "Renan Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanppCosta/playlist-express/issues"
+  },
+  "homepage": "https://github.com/RenanppCosta/playlist-express#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15"
+  }
+}
